@@ -1,0 +1,7 @@
+{
+  "name": "testcsg",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

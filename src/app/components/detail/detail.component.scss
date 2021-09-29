@@ -1,0 +1,147 @@
+.menu-header{
+    padding-top: 5vh;
+}
+.titulo-pagina{
+    margin: 7vh 0 0 5vw;
+    font-size: 25px;
+}
+.color-icon-menu{
+    color:white;
+}
+
+.fondo{
+        background: none;
+        background-image: url('/assets/img/back-detail.png');
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+}
+.espacio-header-alto{
+    margin-top: 3vh;
+}
+.menu-boton{
+    width:30px;
+}
+.logo{
+    width:80%;
+    margin: 0 0 0 7vw;
+}
+ion-icon{
+    color: white;
+    font-size: 25px;
+}
+.texto-der-detail{
+    text-align: right;
+    font-size: 15px;
+    color: white;
+}
+
+.gradient_div {
+    height: 270px;
+    background: linear-gradient(180deg, rgba(141,223,14,1) 0%, rgba(95,174,11,1) 100%);
+    border-bottom-right-radius: 60px;
+    padding: 20px;
+    padding-top: 0px;
+    width: 100%;
+
+    .abs_round {
+        // background: rgba(1, 71, 203, 0.5);
+        background-image: linear-gradient(to right, rgba(255,255,255,0.1), transparent);
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 99;
+        right: -60px;
+        top: -80px;
+        z-index: 999;
+        box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+    }
+
+    
+}
+
+ion-avatar{
+    width: 130px;
+    height: 130px;
+    border: 1px solid #E5E5E5;
+    padding: 4px;
+    background: white;
+}
+
+.center-image{
+    display: flex; 
+    justify-content: center;
+}
+
+.white_box {
+    background: white;
+    padding: 5px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.div-icono{
+    width: 50px;
+}
+.center-div{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.color-white{
+    color:white;
+}
+.titulo-peli{
+    font-size: 16px;
+    height: 60px;
+}
+.txt-small{
+    font-size: 12px;
+}
+.color-gray{
+    color: #636363;
+}
+
+.vote{
+    font-size:12px;
+}
+ion-badge{
+    padding: 2px 15px 2px 15px;
+}
+.cuadro-txt{
+    font-size: 15px;
+}
+.top-container{
+    margin-top:10px;
+}
+.linea-izq{
+    border-right: 1px solid #E5E5E5;
+}
+.linea-abajo{
+    
+    border-bottom: 1px solid #E5E5E5;
+}
+.top-cuadrado{
+    margin-top: 35px
+}
+.espacio-abajo{
+    margin-bottom: 25px;
+}
+ion-button{
+    --background: linear-gradient(180deg, rgba(141,223,14,1) 0%, rgba(95,174,11,1) 100%);
+}
+.top-button{
+    margin-top: 25px;
+}
+.centrar-margin{
+    text-align: center;
+}
+.boton-dimension{
+    width: 220px;
+    height: 45px;
+}

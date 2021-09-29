@@ -1,0 +1,100 @@
+<ion-content>
+  <div class="gradient_div">
+    <div class="abs_round"></div>
+    <ion-grid fixed>
+      <ion-row class="espacio-header-alto">
+        <ion-col size="4" (click)=regresar();>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </ion-col>
+        <ion-col size="4">
+          <div class="">
+            <img src="/assets/img/logo.png" alt="">
+          </div>
+        </ion-col>
+        <ion-col size="4" class="texto-der-detail">
+          <div class="">Más info</div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12" class="top-container">
+          <ion-row>
+            <ion-col size="6" class="center-image">
+              <ion-avatar>
+							  <img [src]="movieDetail.backdrop_path | imagen ">
+						</ion-avatar>	
+            </ion-col>
+            <ion-col size="6">
+              <ion-row>
+                <ion-col size="12" class="color-white  titulo-peli">{{ movieDetail.title }}</ion-col>
+                <ion-col size="12" class="color-white txt-small">Rating</ion-col>
+                <ion-col size="12" class="color-white vote"><ion-badge class="color{{ color }} ">{{ movieDetail.vote_average }}</ion-badge></ion-col>
+                <ion-col size="12" class="color-white txt-small">Votos: <strong>{{ movieDetail.vote_count }}</strong> </ion-col>
+              </ion-row>
+            </ion-col>
+          </ion-row>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <div class="white_box margen-abajo">
+              
+            <ion-row>
+              <ion-col size="9">
+                  <ion-row>
+                      <ion-col size="12" class="verdeTxt">Título original</ion-col>
+                      <ion-col size="12" class="cuadro-txt color-gray">{{ movieDetail.original_title }}</ion-col>
+                  </ion-row>
+              </ion-col>
+              <ion-col size="3" class="center-div">
+                  <div class="div-icono">
+                      <img src="/assets/img/icon-detail.png">
+                  </div>
+              </ion-col>
+          </ion-row>
+
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row class="top-cuadrado">
+        <ion-col size="5" class="linea-izq linea-abajo">
+          <ion-row>
+            <ion-col size="12" class="verdeTxt">Lanzamiento</ion-col>
+            <ion-col size="12" class="txt-small color-gray espacio-abajo"> {{ movieDetail.release_date}} </ion-col>
+          </ion-row>
+        </ion-col>
+        <ion-col size="7" class="linea-abajo">
+          <ion-row>
+            <ion-col size="12" class="verdeTxt">Popularidad</ion-col>
+            <ion-col size="12" class="txt-small color-gray espacio-abajo">{{ movieDetail.popularity }}</ion-col>
+          </ion-row>
+        </ion-col>
+        <ion-col size="5"  class="linea-izq">
+          <ion-row>
+            <ion-col size="12" class="verdeTxt">Recaudación</ion-col>
+            <ion-col size="12" class="txt-small color-gray">$ {{ movieDetail.revenue | number:'1.0':'en-US' }} </ion-col>
+          </ion-row>
+        </ion-col>
+        <ion-col size="7">
+          <ion-row>
+            <ion-col size="12" class="verdeTxt">Géneros</ion-col>
+            <ion-col size="12" class="txt-small">
+              <ion-chip color="primary" mode="ios" *ngFor="let genero of movieDetail.genres" outline="true">
+                <ion-label class="txt-small">{{ genero.name }}</ion-label>
+              </ion-chip>
+            </ion-col>
+          </ion-row>
+        </ion-col>
+      </ion-row>
+      <ion-row class="top-button">
+        <ion-col size="12" class="centrar-margin">
+          <ion-button class="verde-degradado boton-dimension">
+            <ion-icon slot="start" name="film-outline"></ion-icon>
+            Rentar Película
+          </ion-button>
+        </ion-col>
+      </ion-row>
+      
+    </ion-grid>  
+  </div>
+  
+</ion-content>

@@ -1,0 +1,39 @@
+.center-image{
+    display: flex; 
+    justify-content: center;
+}
+.voteContent{
+    padding: 3px 10px 3px 10px;   
+}
+.movie-name{
+    text-align: center;
+    color: #4C4C4C;
+    font-size: 13px;
+}
+
+
+.movie-title{
+    height: 31px;
+}
+ion-avatar{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #E5E5E5;
+    padding: 4px;
+    background: white;
+}
+.linea{
+    width: 80%;
+    margin: 0 auto 0;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.margin-btm{
+    margin-bottom: 100px;
+}
+
+ion-infinite-scroll-content{
+    --color: #009245;
+    font-size: 12px;
+    font-weight: bold;
+}

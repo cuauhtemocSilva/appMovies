@@ -1,1 +1,11 @@
+ion-fab{
+    ion-fab-button{
+        --border-radius : 11px !important;
+        --background: rgb(141,223,14);
+        --background: linear-gradient(180deg, rgba(141,223,14,1) 0%, rgba(95,174,11,1) 100%);
+    }
+}
 
+.tab-selected{
+    color: #75BD00;
+}

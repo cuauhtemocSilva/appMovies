@@ -1,0 +1,33 @@
+.menu-header{
+    padding-top: 5vh;
+}
+.titulo-pagina{
+    margin: 7vh 0 0 5vw;
+    text-align: center;
+}
+.color-icon-menu{
+    color:white;
+}
+
+.fondo{
+        background-color: #F5F5F5;
+        background-image: url('/assets/img/header.png');
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+}
+.espacio-header-alto{
+    margin-top: 3vh;
+}
+.menu-boton{
+    width:30px;
+}
+.logo{
+    width:80%;
+    margin: 0 0 0 7vw;
+}
+ion-icon{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+}

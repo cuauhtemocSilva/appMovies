@@ -24,3 +24,31 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+ion-content{
+    --ion-background-color:#F5F5F5;
+}
+.verdeTxt{
+    color: #009245;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.color1{
+    background-color: #F5A723;
+}
+.color2{
+    background-color: #E4D86C;
+}
+.color3{
+    background-color: #EAC600;
+}
+.color4{
+    background-color: #522841;
+}
+.color5{
+    background-color: #514450;
+}
+.color6{
+    background-color: #352820;
+}
